@@ -7,7 +7,7 @@ def hello_world():
 
 @app.route('/login')
 def login():
-   return 'welcome-to-the-login'
+   return 'Username: <input type="text" /><br>Password: <input type="password" /><br><button>Login</button>'
 
 if __name__ == '__main__':
    app.run()
